@@ -55,3 +55,11 @@ def create_user(fname,lname,password):
 	Function to copy a credentials details to the clipboard
 	'''
 	return Credential.copy_credential(site_name)
+
+    def main():
+    while True:
+        print("Welcome to Password locker")
+
+        rint('\n')
+        print("pick a code to navigate through:to create new user use 'new':To login into your account 'login' or 'x' to exit")
+        
