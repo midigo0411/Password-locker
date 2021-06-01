@@ -49,3 +49,9 @@ def create_user(fname,lname,password):
 	Function to display credentials saved by a user
 	'''
 	return Credential.display_credentials(user_name)
+
+    def copy_credential(site_name):
+	'''
+	Function to copy a credentials details to the clipboard
+	'''
+	return Credential.copy_credential(site_name)
