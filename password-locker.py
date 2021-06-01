@@ -62,4 +62,15 @@ def create_user(fname,lname,password):
 
         rint('\n')
         print("pick a code to navigate through:to create new user use 'new':To login into your account 'login' or 'x' to exit")
-        
+
+        '''
+        creating a new user
+
+        '''
+
+        if short_code == 'new':
+            print('create username')
+            created_user_name = input()
+
+             print('create password')
+            created_user_password = input()
