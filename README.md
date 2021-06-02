@@ -20,7 +20,7 @@ As a user I would like:
 | Display codes for navigation | **In terminal: $./password_locker.py** | Welcome, choose an option: nu-Create Account, lg-Log In, ex-Exit |
 | Display prompt for creating an account | **Enter: nu** | Enter your first name, last name and password |
 | Display prompt for login in | **Enter: lg** | Enter your account name and password |
-| Display codes for navigation | **Successful login** | Choose an option, ex - exit |
+| Display codes for exiting | **Successful login** | Choose an option, ex - exit |
 
 
 ## SetUp / Installation Requirements
